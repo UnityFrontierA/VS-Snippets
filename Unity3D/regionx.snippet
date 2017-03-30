@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+      <Author>Mars Jang</Author>
+      <Title>Region Arrow</Title>
+      <Description>#region >></Description>
+      <Shortcut>regionarrow</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>typein</ID>
+          <Default></Default>
+          <ToolTip></ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[#region >>  $typein$
+
+      $selected$ 
+
+      #endregion
+      $end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

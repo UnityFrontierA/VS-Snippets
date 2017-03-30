@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+      <Author>Mars Jang</Author>
+      <Title>Horizontal Group</Title>
+      <Description>EditorGUILayout Horizontal Group</Description>
+      <Shortcut>horizontaledit</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>typein</ID>
+          <Default></Default>
+          <ToolTip></ToolTip>
+        </Literal>
+        <Literal>
+          <ID>code</ID>
+          <Default>code</Default>
+          <ToolTip></ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[EditorGUILayout.BeginHorizontal($typein$);
+      $selected$ $code$
+      EditorGUILayout.EndHorizontal();      
+      $end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
