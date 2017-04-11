@@ -7,9 +7,9 @@
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
       <Author>Mars Jang</Author>
-      <Title>UNITY_EDITOR</Title>
-      <Description>#if UNITY_EDITOR</Description>
-      <Shortcut>regionx</Shortcut>
+      <Title>EDITOR Compilation</Title>
+      <Description>#if EDITOR</Description>
+      <Shortcut>editorcompilation</Shortcut>
     </Header>
     <Snippet>
       <Declarations>
@@ -19,8 +19,9 @@
         </Literal>
       </Declarations>
       <Code Language="csharp"><![CDATA[#if UNITY_EDITOR
-      $selected$ $end$ $typein$ 
-      #endif]]></Code>
+      $selected$ $typein$ 
+      #endif
+      $end$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
